@@ -1,0 +1,77 @@
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.28);
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  width: 25%;
+}
+
+tr:nth-child(even) {
+  background-color: #ededed;
+}
+
+.products_img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.shoe_name{
+	margin: auto;
+	text-align: center;
+
+}
+
+#parent {
+  position:relative;
+  border-style: dotted;
+}
+#child {
+  position:absolute;
+  bottom:0;
+}
+
+.compare_href{
+	color:#1DA0F0;
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+.compare_criteria{
+	font-weight: bold;
+}
+
+.compare_info{
+	text-align: center;
+}
+
+.label_compare{
+	font-family: var(--body-font);
+    font-size: 12px;
+    color: #858585;
+}
+
+input[type="checkbox"]{
+  width: 9px; 
+  height: 9px; 
+}
+
+
+
+
+
+
+
+
+
+
+

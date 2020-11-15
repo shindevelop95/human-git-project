@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group-6 | Cart</title>
+
+     <!---Bootstrap CDN-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+     <!---Owl-carousel CDN-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+ 
+     <!--font awesome icons-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"/>
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <!--Custom CSS file-->
+     <link rel="stylesheet" href="css/style.css">
+	 
+	 <link rel="stylesheet" href="css/product-comparator.css">
+     
+</head>
+    <body>
+        <!--Navigation-->
+      <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="hamburger-menu">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                      <img src="assets/logo_transparent.png" class="img-fluid" alt="">
+                    </li>
+                    <li class="nav-item">
+                        <button onclick="window.location.href='index.html'" class="nav-link">Home</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link">Men
+                          <div class="mega-menu">
+                            <div class="inner-mega-menu">
+                              <img src="assets/adidas1.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                              <h3>Shoe Category 1</h3>
+                                <p>Shoe-1</p>
+                                <p>Shoe-2</p>
+                                <p>Shoe-3</p>
+                                <p>Shoe-4</p>
+                            </div>
+                            <div class="inner-mega-menu">
+                              <img src="assets/adidas2.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                              <h3>Shoe Category 2</h3>
+                              <p>Shoe-1</p>
+                              <p>Shoe-2</p>
+                              <p>Shoe-3</p>
+                              <p>Shoe-4</p>
+                            </div>
+                            <div class="inner-mega-menu">
+                              <img src="assets/adidas3.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                              <h3>Shoe Category 3</h3>
+                                <p>Shoe-1</p>
+                                <p>Shoe-2</p>
+                                <p>Shoe-3</p>
+                                <p>Shoe-4</p>
+                            </div>
+                            <div class="inner-mega-menu">
+                              <img src="assets/adidas4.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                              <h3>Shoe Category 4</h3>
+                              <p>Shoe-1</p>
+                              <p>Shoe-2</p>
+                              <p>Shoe-3</p>
+                              <p>Shoe-4</p>
+                              <p>Shoe-5</p>
+                              <p>Shoe-6</p>
+                              <p>Shoe-7</p>
+                              <p>Shoe-8</p>
+                            </div>
+                            <div class="inner-mega-menu">
+                              <img src="assets/adidas5.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                              <h3>Shoe Category 5</h3>
+                              <p>Shoe-1</p>
+                              <p>Shoe-2</p>
+                              <p>Shoe-3</p>
+                              <p>Shoe-4</p>
+                            </div>
+                          </div>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link">Women<div class="mega-menu">
+                          <div class="inner-mega-menu">
+                            <img src="assets/adidas1.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                            <h3>Shoe Category 1</h3>
+                              <p>Shoe-1</p>
+                              <p>Shoe-2</p>
+                              <p>Shoe-3</p>
+                              <p>Shoe-4</p>
+                              <p>Shoe-5</p>
+                              <p>Shoe-6</p>
+                              <p>Shoe-7</p>
+                              <p>Shoe-8</p>
+                          </div>
+                          <div class="inner-mega-menu">
+                            <img src="assets/adidas2.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                            <h3>Shoe Category 2</h3>
+                            <p>Shoe-1</p>
+                            <p>Shoe-2</p>
+                            <p>Shoe-3</p>
+                            <p>Shoe-4</p>
+                          </div>
+                          <div class="inner-mega-menu">
+                            <img src="assets/adidas3.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                            <h3>Shoe Category 3</h3>
+                              <p>Shoe-1</p>
+                              <p>Shoe-2</p>
+                              <p>Shoe-3</p>
+                              <p>Shoe-4</p>
+                        </div>
+                          <div class="inner-mega-menu">
+                            <img src="assets/adidas5.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                            <h3>Shoe Category 4</h3>
+                            <p>Shoe-1</p>
+                            <p>Shoe-2</p>
+                            <p>Shoe-3</p>
+                            <p>Shoe-4</p>
+                          
+                          </div>
+                          <div class="inner-mega-menu">
+                            <img src="assets/adidas4.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                            <h3>Shoe Category 5</h3>
+                            <p>Shoe-1</p>
+                            <p>Shoe-2</p>
+                            <p>Shoe-3</p>
+                            <p>Shoe-4</p>
+                          </div>
+                      </div></button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link">Kids<div class="mega-menu">
+                          <div class="inner-mega-menu">
+                            <img src="assets/adidas1.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                            <h3>Shoe Category 1</h3>
+                              <p>Shoe-1</p>
+                              <p>Shoe-2</p>
+                              <p>Shoe-3</p>
+                              <p>Shoe-4</p>
+                          </div>
+                          <div class="inner-mega-menu">
+                            <img src="assets/adidas2.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                            <h3>Shoe Category 2</h3>
+                            <p>Shoe-1</p>
+                            <p>Shoe-2</p>
+                            <p>Shoe-3</p>
+                            <p>Shoe-4</p>
+                          </div>
+                          <div class="inner-mega-menu">
+                            <img src="assets/adidas3.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                            <h3>Shoe Category 3</h3>
+                              <p>Shoe-1</p>
+                              <p>Shoe-2</p>
+                              <p>Shoe-3</p>
+                              <p>Shoe-4</p>
+                              <p>Shoe-5</p>
+                              <p>Shoe-6</p>
+                              <p>Shoe-7</p>
+                              <p>Shoe-8</p>
+                        </div>
+                          <div class="inner-mega-menu">
+                            <img src="assets/adidas4.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                            <h3>Shoe Category 4</h3>
+                            <p>Shoe-1</p>
+                            <p>Shoe-2</p>
+                            <p>Shoe-3</p>
+                            <p>Shoe-4</p>
+                            <p>Shoe-5</p>
+                            <p>Shoe-6</p>
+                            <p>Shoe-7</p>
+                            <p>Shoe-8</p>
+                          </div>
+                          <div class="inner-mega-menu">
+                            <img src="assets/adidas5.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                            <h3>Shoe Category 5</h3>
+                            <p>Shoe-1</p>
+                            <p>Shoe-2</p>
+                            <p>Shoe-3</p>
+                            <p>Shoe-4</p>
+                          </div>
+                      </div></button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link">Sales<div class="mega-menu">
+                          <div class="inner-mega-menu">
+                            <img src="assets/adidas1.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                            <h3>Shoe Category 1</h3>
+                              <p>Shoe-1</p>
+                              <p>Shoe-2</p>
+                              <p>Shoe-3</p>
+                              <p>Shoe-4</p>
+                          </div>
+                          <div class="inner-mega-menu">
+                            <img src="assets/adidas2.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                            <h3>Shoe Category 2</h3>
+                            <p>Shoe-1</p>
+                            <p>Shoe-2</p>
+                            <p>Shoe-3</p>
+                            <p>Shoe-4</p>
+                            <p>Shoe-5</p>
+                            <p>Shoe-6</p>
+                            <p>Shoe-7</p>
+                            <p>Shoe-8</p>
+                          </div>
+                          <div class="inner-mega-menu">
+                            <img src="assets/adidas5.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                            <h3>Shoe Category 3</h3>
+                              <p>Shoe-1</p>
+                              <p>Shoe-2</p>
+                              <p>Shoe-3</p>
+                              <p>Shoe-4</p>
+                        </div>
+                          <div class="inner-mega-menu">
+                            <img src="assets/adidas3.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                            <h3>Shoe Category 4</h3>
+                            <p>Shoe-1</p>
+                            <p>Shoe-2</p>
+                            <p>Shoe-3</p>
+                            
+                          </div>
+                          <div class="inner-mega-menu">
+                            <img src="assets/adidas4.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                            <h3>Shoe Category 5</h3>
+                            <p>Shoe-1</p>
+                            <p>Shoe-2</p>
+                            <p>Shoe-3</p>
+                            <p>Shoe-4</p>
+                          </div>
+                      </div></button>
+                    </li>
+                    <li class="nav-item search-group">
+                      <i class="fas fa-search"></i><input type="text" >
+                    </li>
+                    <form action="#">
+                        <a href="#" class="py-1 rounded-pill cart-wrap">
+                            <span class="px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                            <span class="px-4 py-2 rounded-pill bg-light"></span>
+                        </a>
+                    </form>
+                    <li class="nav-item">
+                    <a href="#" type="button" data-toggle="modal" data-target="#login-details" class="nav-link">Login</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--!Navigation-->
+         <!--Login Details-->
+        <div id="login-details" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">                 
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body"> 
+                  <div class="modal-group">
+                            <div class="socks-icon"><i class="fas fa-socks"></i></div>
+                            <h3 class="sub-headline">Group-6</h3>
+                  </div>       
+                  <div class="modal-group">
+                                <input class="input-info" type="email" placeholder="Email Address" required>
+                  </div>                                                       
+                  <div class="modal-group">
+                              <input class="input-info" type="password" placeholder="Password" required>
+                  </div>
+                  <div class="modal-group">
+                                <div><input type="checkbox">&nbsp;&nbsp;<span>Keep me signed in</span></div>
+                                <span>Forgotten your password?</span>
+                  </div>
+                  <div class="modal-group">
+                                <span>By logging in, you agree to CSIT226-Group-6's <br> <span class="inner-span">Terms of Use</span></span>
+                  </div>
+                  <div class="modal-group">
+                                <button class="btn">CONFIRM SIGN IN</button>
+                  </div>
+                  <div class="modal-group">
+                                <span>New Member?</span>
+                                <a href="#">Sign up now</a>
+                  </div>                           
+                </div>
+            </div>
+          </div>
+        </div>
+        <!--End of Login Details-->
+
+    <section class="cart">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3>Shopping Cart</h3>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8 flex-left">
+                    <div class="item-cart">
+                        <img src="assets/cart-1.jpg" class="img-fluid" alt="">
+                        <div class="cart-item-info">
+                            <h4>Group-6 Air Max N6-S23DS Limited Gold Edition</h4>
+                            <small>by Group-6</small>
+                            <div class="rating text-warning">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>&nbsp;<span>20,300 ratings</span>
+                            </div>
+                            <div class="d-flex qty input-qty w-25">
+                                <button class="qty-up border bg-light" data-id="pro1"><i class="fas fa-angle-up"></i></button>
+                                <input type="text" data-id="pro1" class="qty_input border px-2 w-100 bg-light" disabled value="1">
+                                <button class="qty-down border bg-light" data-id="pro1"><i class="fas fa-angle-down"></i></button>
+                            </div>
+                            <div class="price-group">
+                                <div class="cart-btn-group">
+                                    <button type="submit" class="btn px-3 border-right">Delete</button>
+        
+                                </div>
+                                <span>$169</span>
+                            </div>
+                      </div> 
+                  </div>  
+                    <hr>
+                    <div class="item-cart">
+                        <img src="assets/cart-2.jpg" class="img-fluid" alt="">
+                        <div class="cart-item-info">
+                            <h4>Group-6 Air Max N6-S23DS Limited Gold Edition</h4>
+                            <small>by Group-6</small>
+                            <div class="rating text-warning">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>&nbsp;<span>20,300 ratings</span>
+                            </div>
+                            <div class="d-flex qty input-qty w-25">
+                                <button class="qty-up border bg-light" data-id="pro2"><i class="fas fa-angle-up"></i></button>
+                                <input type="text" data-id="pro2" class="qty_input border px-2 w-100 bg-light" disabled value="1">
+                                <button class="qty-down border bg-light" data-id="pro2"><i class="fas fa-angle-down"></i></button>
+                            </div>
+                            <div class="price-group">
+                                <div class="cart-btn-group">
+                                    <button type="submit" class="btn px-3 border-right">Delete</button>
+                     
+                                </div>
+                                <span>$169</span>
+                            </div>
+                      </div> 
+                  </div>  
+                    <hr>
+                    <div class="item-cart">
+                        <img src="assets/cart-3.jpg" class="img-fluid" alt="">
+                        <div class="cart-item-info">
+                            <h4>Group-6 Air Max N6-S23DS Limited Gold Edition</h4>
+                            <small>by Group-6</small>
+                            <div class="rating text-warning">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>&nbsp;<span>20,300 ratings</span>
+                            </div>
+                            <div class="d-flex qty input-qty w-25">
+                                <button class="qty-up border bg-light" data-id="pro3"><i class="fas fa-angle-up"></i></button>
+                                <input type="text" data-id="pro3" class="qty_input border px-2 w-100 bg-light" disabled value="1">
+                                <button class="qty-down border bg-light" data-id="pro3"><i class="fas fa-angle-down"></i></button>
+                            </div>
+                            <div class="price-group">
+                                <div class="cart-btn-group">
+                                    <button type="submit" class="btn px-3 border-right">Delete</button>
+         
+                                </div>
+                                <span>$169</span>
+                            </div>
+                      </div> 
+                  </div>  
+                    <hr>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3 flex-right">
+                    <h4>Ship to</h4>
+                    <select name="" id="">
+                        <option value="country"></option>
+                        <option value="country">Singapore</option>
+                        <option value="country">China</option>
+                        <option value="country">United State</option>
+                        <option value="country">Spain</option>
+                        <option value="country">South Korea</option>
+                        <option value="country">HongKong</option>
+                        <option value="country">Taiwan</option>
+                    </select>
+                    <h4>How You'll Pay</h4>
+                    <img src="assets/payment-banner.png" class="img-fluid" alt="">
+                    <p>Apply promotion code</p>
+                    <div class="payment-group">
+                        <p>Item total:</p>
+                        <p>$1,008.32 USD</p>
+                    </div>
+                    <div class="payment-group">
+                        <p>Shipping:</p>
+                        <p>$4.00 USD</p>
+                    </div>
+                    <hr>
+                    <div class="payment-group">
+                        <p>Subtotal</p>
+                        <p>$1,012.32 USD</p>
+                    </div>
+
+                    <div class="payment-btn">
+                        <button class="btn">Check out with PayPal</button>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Promotion-->
+  <section id="promotion">
+    <div class="container p-3">
+      <h3>Products you may love</h4>
+      <hr>
+      <!--owl carousel-->
+      <div class="owl-carousel owl-theme">
+        <div class="item py-2">
+          <div class="product">
+            <a href="#"><img src="assets/products/1.jpg" alt="product1" class="img-fluid"></a>
+            <div class="text-center">
+              <h6>Nike</h6>
+              <div class="rating text-warning font-size-12">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn">Add to Cart</button>
+			  
+					<!-- =============================================================== COMPARE PRODUCT 1 =============================================================== -->
+					<form>
+						<input type="checkbox" id="cbx_compare1" class="checkbox_compare" value="assets/products/1.jpg" onclick="toggleCompareLink(this.id)">
+						<label id="lbl_compare1" class="label_compare" for="cbx_compare1">Add to compare</label>
+						<a id="href_1" class="compare_href" style="display: none" href="javascript:void(0);" onclick="loadComparePage()">Compare now</a>
+					</form>			  
+			  
+            </div>
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product">
+            <a href="#"><img src="assets/products/2.jpg" alt="product2" class="img-fluid"></a>
+            <div class="text-center">
+              <h6>Nike</h6>
+              <div class="rating text-warning font-size-12">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn">Add to Cart</button>
+			  
+					<!-- =============================================================== COMPARE PRODUCT 2 =============================================================== -->
+					<form>
+						<input type="checkbox" id="cbx_compare2" class="checkbox_compare" value="assets/products/2.jpg" onclick="toggleCompareLink(this.id)">
+						<label id="lbl_compare2" class="label_compare" for="cbx_compare2">Add to compare</label>
+						<a id="href_2" class="compare_href" style="display: none" href="javascript:void(0);" onclick="loadComparePage()">Compare now</a>
+					</form>					  
+			  
+            </div>
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product">
+            <a href="#"><img src="assets/products/3.jpg" alt="product3" class="img-fluid"></a>
+            <div class="text-center">
+              <h6>Nike</h6>
+              <div class="rating text-warning font-size-12">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn">Add to Cart</button>
+			  
+					<!-- =============================================================== COMPARE PRODUCT 3 =============================================================== -->
+					<form>
+						<input type="checkbox" id="cbx_compare3" class="checkbox_compare" value="assets/products/3.jpg" onclick="toggleCompareLink(this.id)">
+						<label id="lbl_compare3" class="label_compare" for="cbx_compare3">Add to compare</label>
+						<a id="href_3" class="compare_href" style="display: none" href="javascript:void(0);" onclick="loadComparePage()">Compare now</a>
+					</form>					  
+			  
+            </div>
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product">
+            <a href="#"><img src="assets/products/4.jpg" alt="product4" class="img-fluid"></a>
+            <div class="text-center">
+              <h6>Nike</h6>
+              <div class="rating text-warning font-size-12">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn">Add to Cart</button>
+			  
+					<!-- =============================================================== COMPARE PRODUCT 4 =============================================================== -->
+					<form>
+						<input type="checkbox" id="cbx_compare4" class="checkbox_compare" value="assets/products/4.jpg" onclick="toggleCompareLink(this.id)">
+						<label id="lbl_compare4" class="label_compare" for="cbx_compare4">Add to compare</label>
+						<a id="href_4" class="compare_href" style="display: none" href="javascript:void(0);" onclick="loadComparePage()">Compare now</a>
+					</form>					  
+			  
+            </div>
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product">
+            <a href="#"><img src="assets/products/5.jpg" alt="product5" class="img-fluid"></a>
+            <div class="text-center">
+              <h6>Nike</h6>
+              <div class="rating text-warning font-size-12">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn">Add to Cart</button>
+			  
+					<!-- =============================================================== COMPARE PRODUCT 5 =============================================================== -->
+					<form>
+						<input type="checkbox" id="cbx_compare5" class="checkbox_compare" value="assets/products/5.jpg" onclick="toggleCompareLink(this.id)">
+						<label id="lbl_compare5" class="label_compare" for="cbx_compare5">Add to compare</label>
+						<a id="href_5" class="compare_href" style="display: none" href="javascript:void(0);" onclick="loadComparePage()">Compare now</a>
+					</form>					  
+			  
+            </div>
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product">
+            <a href="#"><img src="assets/products/6.jpg" alt="product6" class="img-fluid"></a>
+            <div class="text-center">
+              <h6>Nike</h6>
+              <div class="rating text-warning font-size-12">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn">Add to Cart</button>
+			  
+					<!-- =============================================================== COMPARE PRODUCT 6 =============================================================== -->
+					<form>
+						<input type="checkbox" id="cbx_compare6" class="checkbox_compare" value="assets/products/6.jpg" onclick="toggleCompareLink(this.id)">
+						<label id="lbl_compare6" class="label_compare" for="cbx_compare6">Add to compare</label>
+						<a id="href_6" class="compare_href" style="display: none" href="javascript:void(0);" onclick="loadComparePage()">Compare now</a>
+					</form>					  
+			  
+            </div>
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product">
+            <a href="#"><img src="assets/products/7.jpg" alt="product8" class="img-fluid"></a>
+            <div class="text-center">
+              <h6>Nike</h6>
+              <div class="rating text-warning font-size-12">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn">Add to Cart</button>
+			  
+					<!-- =============================================================== COMPARE PRODUCT 7 =============================================================== -->
+					<form>
+						<input type="checkbox" id="cbx_compare7" class="checkbox_compare" value="assets/products/7.jpg" onclick="toggleCompareLink(this.id)">
+						<label id="lbl_compare7" class="label_compare" for="cbx_compare7">Add to compare</label>
+						<a id="href_7" class="compare_href" style="display: none" href="javascript:void(0);" onclick="loadComparePage()">Compare now</a>
+					</form>					  
+			  
+            </div>
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product">
+            <a href="#"><img src="assets/products/2.jpg" alt="product10" class="img-fluid"></a>
+            <div class="text-center">
+              <h6>Nike</h6>
+              <div class="rating text-warning font-size-12">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn">Add to Cart</button>
+			  
+					<!-- =============================================================== COMPARE PRODUCT 8 =============================================================== -->
+					<form>
+						<input type="checkbox" id="cbx_compare8" class="checkbox_compare" value="assets/products/2.jpg" onclick="toggleCompareLink(this.id)">
+						<label id="lbl_compare8" class="label_compare" for="cbx_compare8">Add to compare</label>
+						<a id="href_8" class="compare_href" style="display: none" href="javascript:void(0);" onclick="loadComparePage()">Compare now</a>
+					</form>					  
+			  
+            </div>
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product">
+            <a href="#"><img src="assets/products/1.jpg" alt="product1" class="img-fluid"></a>
+            <div class="text-center">
+              <h6>Nike</h6>
+              <div class="rating font-size-12">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="far fa-star"></i></span>
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn ">Add to Cart</button>
+			  
+					<!-- =============================================================== COMPARE PRODUCT 9 =============================================================== -->
+					<form>
+						<input type="checkbox" id="cbx_compare9" class="checkbox_compare" value="assets/products/1.jpg" onclick="toggleCompareLink(this.id)">
+						<label id="lbl_compare9" class="label_compare" for="cbx_compare9">Add to compare</label>
+						<a id="href_9" class="compare_href" style="display: none" href="javascript:void(0);" onclick="loadComparePage()">Compare now</a>
+					</form>					  
+			  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--!Promotion-->
+    <!--Footer-->
+  <footer id="footer" class="text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-12">
+          <h4>HCI Shoe Store</h4>
+          <p class="font-size-14 font-rale text-white-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos voluptate ut voluptas sapiente aliquid accusamus doloribus nostrum iste? Temporibus, debitis.</p>
+        </div>
+        <div class="col-lg-4 col-12">
+          <h4>Newsletter</h4>
+          <form class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Email">
+            </div>
+            <div class="col">
+              <button type="submit" class="btn btn-outline-success mb-2">Subscribe</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-2 col-12">
+          <h4>Information</h4>
+          <div class="d-flex flex-column flex-wrap">
+            <a href="#" class="text-white-50 pb-1">About Us</a>
+            <a href="#" class="text-white-50 pb-1">Delivery Infomation</a>
+            <a href="#" class="text-white-50 pb-1">Privacy Policy</a>
+            <a href="#" class="text-white-50 pb-1">Terms & Conditions</a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-12">
+          <h4>Account</h4>
+          <div class="d-flex flex-column flex-wrap">
+            <a href="#" class="text-white-50 pb-1">My Account</a>
+            <a href="#" class="text-white-50 pb-1">Order History</a>
+            <a href="#" class="text-white-50 pb-1">Wish List</a>
+            <a href="#" class="text-white-50 pb-1">Newsletters</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright text-center text-white py-2">
+      <p>&copy;Copyrights 2020. Designed By <a href="#" class="hci-production">HCI Group Productions</a></p>
+    </div>
+  </footer>
+   <!--!Footer-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <!--Owl Carousel Js file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+   <!--isotope plugin cdn-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    
+   <!--Custom Javascript-->
+    <script src="js/main.js"></script>
+	<script src="js/addToCompare.js"></script>
+   </body>
+</html>

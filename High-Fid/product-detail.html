@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group-6 | Product Details</title>
+
+     <!---Bootstrap CDN-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+     <!---Owl-carousel CDN-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+ 
+     <!--font awesome icons-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"/>
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <!--Custom CSS file-->
+     <link rel="stylesheet" href="css/style.css">
+    
+     <link rel="stylesheet" href="css/product-comparator.css">
+	 
+</head>
+<body>
+    <!--Navigation-->
+    <header class="header" id="header">
+      <div class="container">
+          <nav class="nav">
+              <div class="hamburger-menu">
+                  <i class="fas fa-bars"></i>
+                  <i class="fas fa-times"></i>
+              </div>
+              <ul class="nav-list">
+                  <li class="nav-item">
+                    <img src="assets/logo_transparent.png" class="img-fluid" alt="">
+                  </li>
+                  <li class="nav-item">
+                      <button onclick="window.location.href='index.html'" class="nav-link">Home</button>
+                  </li>
+                  <li class="nav-item">
+                      <button class="nav-link">Men
+                        <div class="mega-menu">
+                          <div class="inner-mega-menu">
+                            <img src="assets/adidas1.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                            <h3>Shoe Category 1</h3>
+                              <p>Shoe-1</p>
+                              <p>Shoe-2</p>
+                              <p>Shoe-3</p>
+                              <p>Shoe-4</p>
+                          </div>
+                          <div class="inner-mega-menu">
+                            <img src="assets/adidas2.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                            <h3>Shoe Category 2</h3>
+                            <p>Shoe-1</p>
+                            <p>Shoe-2</p>
+                            <p>Shoe-3</p>
+                            <p>Shoe-4</p>
+                          </div>
+                          <div class="inner-mega-menu">
+                            <img src="assets/adidas3.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                            <h3>Shoe Category 3</h3>
+                              <p>Shoe-1</p>
+                              <p>Shoe-2</p>
+                              <p>Shoe-3</p>
+                              <p>Shoe-4</p>
+                          </div>
+                          <div class="inner-mega-menu">
+                            <img src="assets/adidas4.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                            <h3>Shoe Category 4</h3>
+                            <p>Shoe-1</p>
+                            <p>Shoe-2</p>
+                            <p>Shoe-3</p>
+                            <p>Shoe-4</p>
+                            <p>Shoe-5</p>
+                            <p>Shoe-6</p>
+                            <p>Shoe-7</p>
+                            <p>Shoe-8</p>
+                          </div>
+                          <div class="inner-mega-menu">
+                            <img src="assets/adidas5.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                            <h3>Shoe Category 5</h3>
+                            <p>Shoe-1</p>
+                            <p>Shoe-2</p>
+                            <p>Shoe-3</p>
+                            <p>Shoe-4</p>
+                          </div>
+                        </div>
+                      </button>
+                  </li>
+                  <li class="nav-item">
+                      <button class="nav-link">Women<div class="mega-menu">
+                        <div class="inner-mega-menu">
+                          <img src="assets/adidas1.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                          <h3>Shoe Category 1</h3>
+                            <p>Shoe-1</p>
+                            <p>Shoe-2</p>
+                            <p>Shoe-3</p>
+                            <p>Shoe-4</p>
+                            <p>Shoe-5</p>
+                            <p>Shoe-6</p>
+                            <p>Shoe-7</p>
+                            <p>Shoe-8</p>
+                        </div>
+                        <div class="inner-mega-menu">
+                          <img src="assets/adidas2.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                          <h3>Shoe Category 2</h3>
+                          <p>Shoe-1</p>
+                          <p>Shoe-2</p>
+                          <p>Shoe-3</p>
+                          <p>Shoe-4</p>
+                        </div>
+                        <div class="inner-mega-menu">
+                          <img src="assets/adidas3.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                          <h3>Shoe Category 3</h3>
+                            <p>Shoe-1</p>
+                            <p>Shoe-2</p>
+                            <p>Shoe-3</p>
+                            <p>Shoe-4</p>
+                      </div>
+                        <div class="inner-mega-menu">
+                          <img src="assets/adidas5.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                          <h3>Shoe Category 4</h3>
+                          <p>Shoe-1</p>
+                          <p>Shoe-2</p>
+                          <p>Shoe-3</p>
+                          <p>Shoe-4</p>
+                        
+                        </div>
+                        <div class="inner-mega-menu">
+                          <img src="assets/adidas4.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                          <h3>Shoe Category 5</h3>
+                          <p>Shoe-1</p>
+                          <p>Shoe-2</p>
+                          <p>Shoe-3</p>
+                          <p>Shoe-4</p>
+                        </div>
+                    </div></button>
+                  </li>
+                  <li class="nav-item">
+                      <button class="nav-link">Kids<div class="mega-menu">
+                        <div class="inner-mega-menu">
+                          <img src="assets/adidas1.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                          <h3>Shoe Category 1</h3>
+                            <p>Shoe-1</p>
+                            <p>Shoe-2</p>
+                            <p>Shoe-3</p>
+                            <p>Shoe-4</p>
+                        </div>
+                        <div class="inner-mega-menu">
+                          <img src="assets/adidas2.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                          <h3>Shoe Category 2</h3>
+                          <p>Shoe-1</p>
+                          <p>Shoe-2</p>
+                          <p>Shoe-3</p>
+                          <p>Shoe-4</p>
+                        </div>
+                        <div class="inner-mega-menu">
+                          <img src="assets/adidas3.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                          <h3>Shoe Category 3</h3>
+                            <p>Shoe-1</p>
+                            <p>Shoe-2</p>
+                            <p>Shoe-3</p>
+                            <p>Shoe-4</p>
+                            <p>Shoe-5</p>
+                            <p>Shoe-6</p>
+                            <p>Shoe-7</p>
+                            <p>Shoe-8</p>
+                      </div>
+                        <div class="inner-mega-menu">
+                          <img src="assets/adidas4.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                          <h3>Shoe Category 4</h3>
+                          <p>Shoe-1</p>
+                          <p>Shoe-2</p>
+                          <p>Shoe-3</p>
+                          <p>Shoe-4</p>
+                          <p>Shoe-5</p>
+                          <p>Shoe-6</p>
+                          <p>Shoe-7</p>
+                          <p>Shoe-8</p>
+                        </div>
+                        <div class="inner-mega-menu">
+                          <img src="assets/adidas5.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                          <h3>Shoe Category 5</h3>
+                          <p>Shoe-1</p>
+                          <p>Shoe-2</p>
+                          <p>Shoe-3</p>
+                          <p>Shoe-4</p>
+                        </div>
+                    </div></button>
+                  </li>
+                  <li class="nav-item">
+                      <button class="nav-link">Sales<div class="mega-menu">
+                        <div class="inner-mega-menu">
+                          <img src="assets/adidas1.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                          <h3>Shoe Category 1</h3>
+                            <p>Shoe-1</p>
+                            <p>Shoe-2</p>
+                            <p>Shoe-3</p>
+                            <p>Shoe-4</p>
+                        </div>
+                        <div class="inner-mega-menu">
+                          <img src="assets/adidas2.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                          <h3>Shoe Category 2</h3>
+                          <p>Shoe-1</p>
+                          <p>Shoe-2</p>
+                          <p>Shoe-3</p>
+                          <p>Shoe-4</p>
+                          <p>Shoe-5</p>
+                          <p>Shoe-6</p>
+                          <p>Shoe-7</p>
+                          <p>Shoe-8</p>
+                        </div>
+                        <div class="inner-mega-menu">
+                          <img src="assets/adidas5.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                          <h3>Shoe Category 3</h3>
+                            <p>Shoe-1</p>
+                            <p>Shoe-2</p>
+                            <p>Shoe-3</p>
+                            <p>Shoe-4</p>
+                      </div>
+                        <div class="inner-mega-menu">
+                          <img src="assets/adidas3.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                          <h3>Shoe Category 4</h3>
+                          <p>Shoe-1</p>
+                          <p>Shoe-2</p>
+                          <p>Shoe-3</p>
+                          
+                        </div>
+                        <div class="inner-mega-menu">
+                          <img src="assets/adidas4.jpg" class="img-fluid" style="height:150px;width:150px;" alt="">
+                          <h3>Shoe Category 5</h3>
+                          <p>Shoe-1</p>
+                          <p>Shoe-2</p>
+                          <p>Shoe-3</p>
+                          <p>Shoe-4</p>
+                        </div>
+                    </div></button>
+                  </li>
+                  <li class="nav-item search-group">
+                    <i class="fas fa-search"></i><input type="text" >
+                  </li>
+                  <form action="#">
+                      <a href="#" class="py-1 rounded-pill cart-wrap">
+                          <span class="px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                          <span class="px-4 py-2 rounded-pill bg-light"></span>
+                      </a>
+                  </form>
+                  <li class="nav-item">
+                  <a href="#" type="button" data-toggle="modal" data-target="#login-details" class="nav-link">Login</a>
+                  </li>
+              </ul>
+          </nav>
+      </div>
+  </header>
+  <!--!Navigation-->
+     <!--Login Details-->
+    <div id="login-details" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">                 
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body"> 
+              <div class="modal-group">
+                        <div class="socks-icon"><i class="fas fa-socks"></i></div>
+                        <h3 class="sub-headline">Group-6</h3>
+              </div>       
+              <div class="modal-group">
+                            <input class="input-info" type="email" placeholder="Email Address" required>
+              </div>                                                       
+              <div class="modal-group">
+                          <input class="input-info" type="password" placeholder="Password" required>
+              </div>
+              <div class="modal-group">
+                            <div><input type="checkbox">&nbsp;&nbsp;<span>Keep me signed in</span></div>
+                            <span>Forgotten your password?</span>
+              </div>
+              <div class="modal-group">
+                            <span>By logging in, you agree to CSIT226-Group-6's <br> <span class="inner-span">Terms of Use</span></span>
+              </div>
+              <div class="modal-group">
+                            <button class="btn">CONFIRM SIGN IN</button>
+              </div>
+              <div class="modal-group">
+                            <span>New Member?</span>
+                            <a href="#">Sign up now</a>
+              </div>                           
+            </div>
+        </div>
+      </div>
+    </div>
+    <!--End of Login Details-->
+	<section id="product-detail">
+		<div class="column flex-left">
+			<div id="zoom-section">
+				<div id="lens"></div>
+				<img id=featured src="assets/shoe-1.jpg" class="img-fluid">
+			</div>
+			<div id="slide-wrapper" >
+				<div id="slider">
+					<img class="thumbnail active" src="assets/shoe-1.jpg">
+					<img class="thumbnail" src="assets/shoe-4.jpg">
+					<img class="thumbnail" src="assets/shoe-3.jpg">		
+        </div>
+      </div>
+      <div class="payment-group">
+          <a class="btn text-center"href="">Proceed with Payment</a>
+          <a class="btn text-center"href="">Save for later</a>
+      </div>
+    </div>
+
+		  <div class="column flex-right">
+			      <h3>HCI Shoe Air Max</h3>
+            <small>by csit226 group-6</small>
+            <div class="d-flex align-items-center mb-2">
+                <div class="rating text-warning">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                </div>
+                <a href="#" class="px-2 review">21,001 reviews | 1000+ answers questions</a>
+            </div>
+            <hr>
+            <table class="my-3">
+                <tr>
+                    <td>Usual Price:</td>
+                    <td><strike>$162.00</strike></td>
+                </tr>
+                <tr>
+                    <td>Deal Price:</td>
+                    <td class="text-danger"><span>$152.00</span><small class="text-dark">&nbsp;&nbsp;GST Inclusive</small></td>
+                </tr>
+                <tr>
+                    <td>You Save:</td>
+                    <td><span class="text-danger">$10.00</span></td>
+                </tr>
+            </table>
+            <!--Policy-->
+			      <div class="policy">
+                <div class="d-flex justify-content-around">
+                    <div class="item text-center mr-5">
+                        <div class="my-2">
+                            <span class="fas fa-retweet border p-3 rounded-pill"></span>
+                        </div>
+                        <a href="#">10 Days<br>Replacement</a>
+                    </div>
+                    <div class="item text-center mr-5">
+                        <div class="my-2">
+                            <span class="fas fa-truck border p-3 rounded-pill"></span>
+                        </div>
+                        <a href="#">Group-6<br>Delivered</a>
+                    </div>
+                    <div class="item text-center mr-5">
+                        <div class="my-2">
+                            <span class="fas fa-check border p-3 rounded-pill"></span>
+                        </div>
+                        <a href="#">Self<br>Pick up</a>
+                    </div>
+                </div>
+            </div>
+            <!--!Policy-->
+            <hr>
+
+			      <!--order-details-->
+            <div class="order-details" class="d-flex flex-column text-dark">
+                <small>Delivery by: Mar 29 - Apr 1</small>
+                <br><small>Sold by <span>Group-6</span>&nbsp;(4.8 out of 5 | 13,195 ratings)</small>
+                <br><small><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Deliver to Customer - 632186</small>
+            </div>
+            <!--!order-details-->
+            <!--Color-->
+            <div class="color-group">
+                <h4>Color</h4>
+                <div class="color-item">
+                  <button><span class="red-btn"></span></button>
+                  <button><span class="blue-btn"></span></button>
+                  <button><span class="yellow-btn"></span></button>
+                </div>
+            </div>
+            <!--Color-->
+            <!--Size-->
+            <div class="size my-3">
+                <h4>Size:</h4>
+                <div class="size-group">
+                    <button>28</button>                 
+                    <button>30</button>            
+                    <button>32</button>
+                    <button>33</button>
+                    <button>34</button>
+                    <button>35</button>
+                    <button>36</button>
+                    <button>38</button>
+                    <button>40</button>              
+                </div>
+            </div>
+            <!--!Size-->
+		</div>
+  </section>
+  
+  <section class="col-12 product-description">
+    <div class="container">
+      <h4>Product Description</h4>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo explicabo reprehenderit saepe unde dolorem, dolores nobis aliquid excepturi porro, similique sint! Incidunt, fuga similique et sunt at esse reiciendis fugiat?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo explicabo reprehenderit saepe unde dolorem, dolores nobis aliquid excepturi porro, similique sint! Incidunt, fuga similique et sunt at esse reiciendis fugiat?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo explicabo reprehenderit saepe unde dolorem, dolores nobis aliquid excepturi porro, similique sint! Incidunt, fuga similique et sunt at esse reiciendis fugiat?</p>
+    </div>
+  </section>
+  <!--Promotion-->
+  <section id="promotion">
+    <div class="container p-3">
+      <h3>Related Products</h4>
+      <hr>
+      <!--owl carousel-->
+      <div class="owl-carousel owl-theme">
+        <div class="item py-2">
+          <div class="product">
+            <a href="#"><img src="assets/products/1.jpg" alt="product1" class="img-fluid"></a>
+            <div class="text-center">
+              <h6>Nike</h6>
+              <div class="rating text-warning">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn">Add to Cart</button>
+			  
+				<!-- =============================================================== COMPARE PRODUCT 1 =============================================================== -->
+				<form>
+					<input type="checkbox" id="cbx_compare1" class="checkbox_compare" value="assets/products/1.jpg" onclick="toggleCompareLink(this.id)">
+					<label id="lbl_compare1" class="label_compare" for="cbx_compare1">Add to compare</label>
+					<a id="href_1" class="compare_href" style="display: none" href="javascript:void(0);" onclick="loadComparePage()">Compare now</a>
+				</form>			  
+			  
+            </div>
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product">
+            <a href="#"><img src="assets/products/2.jpg" alt="product2" class="img-fluid"></a>
+            <div class="text-center">
+              <h6>Nike</h6>
+              <div class="rating text-warning">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn">Add to Cart</button>
+			  
+					<!-- =============================================================== COMPARE PRODUCT 2 =============================================================== -->
+					<form>
+						<input type="checkbox" id="cbx_compare2" class="checkbox_compare" value="assets/products/2.jpg" onclick="toggleCompareLink(this.id)">
+						<label id="lbl_compare2" class="label_compare" for="cbx_compare2">Add to compare</label>
+						<a id="href_2" class="compare_href" style="display: none" href="javascript:void(0);" onclick="loadComparePage()">Compare now</a>
+					</form>				  
+			  
+            </div>
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product">
+            <a href="#"><img src="assets/products/3.jpg" alt="product3" class="img-fluid"></a>
+            <div class="text-center">
+              <h6>Nike</h6>
+              <div class="rating text-warning">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn">Add to Cart</button>
+			  
+					<!-- =============================================================== COMPARE PRODUCT 3 =============================================================== -->
+					<form>
+						<input type="checkbox" id="cbx_compare3" class="checkbox_compare" value="assets/products/3.jpg" onclick="toggleCompareLink(this.id)">
+						<label id="lbl_compare3" class="label_compare" for="cbx_compare3">Add to compare</label>
+						<a id="href_3" class="compare_href" style="display: none" href="javascript:void(0);" onclick="loadComparePage()">Compare now</a>
+					</form>			  
+			  
+            </div>
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product">
+            <a href="#"><img src="assets/products/4.jpg" alt="product4" class="img-fluid"></a>
+            <div class="text-center">
+              <h6>Nike</h6>
+              <div class="rating text-warning">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn">Add to Cart</button>
+			  
+					<!-- =============================================================== COMPARE PRODUCT 4 =============================================================== -->
+					<form>
+						<input type="checkbox" id="cbx_compare4" class="checkbox_compare" value="assets/products/4.jpg" onclick="toggleCompareLink(this.id)">
+						<label id="lbl_compare4" class="label_compare" for="cbx_compare4">Add to compare</label>
+						<a id="href_4" class="compare_href" style="display: none" href="javascript:void(0);" onclick="loadComparePage()">Compare now</a>
+					</form>				  
+			  
+			  
+            </div>
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product">
+            <a href="#"><img src="assets/products/5.jpg" alt="product5" class="img-fluid"></a>
+            <div class="text-center">
+              <h6>Nike</h6>
+              <div class="rating text-warning">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn">Add to Cart</button>
+			  
+					<!-- =============================================================== COMPARE PRODUCT 5 =============================================================== -->
+					<form>
+						<input type="checkbox" id="cbx_compare5" class="checkbox_compare" value="assets/products/5.jpg" onclick="toggleCompareLink(this.id)">
+						<label id="lbl_compare5" class="label_compare" for="cbx_compare5">Add to compare</label>
+						<a id="href_5" class="compare_href" style="display: none" href="javascript:void(0);" onclick="loadComparePage()">Compare now</a>
+					</form>			  
+			  		  
+            </div>
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product">
+            <a href="#"><img src="assets/products/6.jpg" alt="product6" class="img-fluid"></a>
+            <div class="text-center">
+              <h6>Nike</h6>
+              <div class="rating text-warning">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn">Add to Cart</button>
+			  
+					<!-- =============================================================== COMPARE PRODUCT 6 =============================================================== -->
+					<form>
+						<input type="checkbox" id="cbx_compare6" class="checkbox_compare" value="assets/products/6.jpg" onclick="toggleCompareLink(this.id)">
+						<label id="lbl_compare6" class="label_compare" for="cbx_compare6">Add to compare</label>
+						<a id="href_6" class="compare_href" style="display: none" href="javascript:void(0);" onclick="loadComparePage()">Compare now</a>
+					</form>				  
+			  
+            </div>
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product">
+            <a href="#"><img src="assets/products/7.jpg" alt="product8" class="img-fluid"></a>
+            <div class="text-center">
+              <h6>Nike</h6>
+              <div class="rating text-warning">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn">Add to Cart</button>
+			  
+					<!-- =============================================================== COMPARE PRODUCT 7 =============================================================== -->
+					<form>
+						<input type="checkbox" id="cbx_compare7" class="checkbox_compare" value="assets/products/7.jpg" onclick="toggleCompareLink(this.id)">
+						<label id="lbl_compare7" class="label_compare" for="cbx_compare7">Add to compare</label>
+						<a id="href_7" class="compare_href" style="display: none" href="javascript:void(0);" onclick="loadComparePage()">Compare now</a>
+					</form>			  
+			  
+            </div>
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product">
+            <a href="#"><img src="assets/products/2.jpg" alt="product10" class="img-fluid"></a>
+            <div class="text-center">
+              <h6>Nike</h6>
+              <div class="rating text-warning">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn">Add to Cart</button>
+			  
+					<!-- =============================================================== COMPARE PRODUCT 8 =============================================================== -->
+					<form>
+						<input type="checkbox" id="cbx_compare8" class="checkbox_compare" value="assets/products/2.jpg" onclick="toggleCompareLink(this.id)">
+						<label id="lbl_compare8" class="label_compare" for="cbx_compare8">Add to compare</label>
+						<a id="href_8" class="compare_href" style="display: none" href="javascript:void(0);" onclick="loadComparePage()">Compare now</a>
+					</form>			  
+			  
+            </div>
+          </div>
+        </div>
+        <div class="item py-2">
+          <div class="product">
+            <a href="#"><img src="assets/products/1.jpg" alt="product1" class="img-fluid"></a>
+            <div class="text-center">
+              <h6>Nike</h6>
+              <div class="rating">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="far fa-star"></i></span>
+              </div>
+              <div class="price py-2">
+                <span>$152</span>
+              </div>
+              <button type="submit" class="btn ">Add to Cart</button>
+			  
+					<!-- =============================================================== COMPARE PRODUCT 9 =============================================================== -->
+					<form>
+						<input type="checkbox" id="cbx_compare9" class="checkbox_compare" value="assets/products/1.jpg" onclick="toggleCompareLink(this.id)">
+						<label id="lbl_compare9" class="label_compare" for="cbx_compare9">Add to compare</label>
+						<a id="href_9" class="compare_href" style="display: none" href="javascript:void(0);" onclick="loadComparePage()">Compare now</a>
+					</form>				  
+			  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--!Promotion-->
+  <!--Footer-->
+  <footer id="footer" class="text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-12">
+          <h4>HCI Shoe Store</h4>
+          <p class=text-white-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos voluptate ut voluptas sapiente aliquid accusamus doloribus nostrum iste? Temporibus, debitis.</p>
+        </div>
+        <div class="col-lg-4 col-12">
+          <h4>Newsletter</h4>
+          <form class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Email">
+            </div>
+            <div class="col">
+              <button type="submit" class="btn btn-outline-success mb-2">Subscribe</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-2 col-12">
+          <h4>Information</h4>
+          <div class="d-flex flex-column flex-wrap">
+            <a href="#" class="text-white-50 pb-1">About Us</a>
+            <a href="#" class="text-white-50 pb-1">Delivery Infomation</a>
+            <a href="#" class="text-white-50 pb-1">Privacy Policy</a>
+            <a href="#" class="text-white-50 pb-1">Terms & Conditions</a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-12">
+          <h4>Account</h4>
+          <div class="d-flex flex-column flex-wrap">
+            <a href="#" class="text-white-50 pb-1">My Account</a>
+            <a href="#" class="text-white-50 pb-1">Order History</a>
+            <a href="#" class="text-white-50 pb-1">Wish List</a>
+            <a href="#" class="text-white-50 pb-1">Newsletters</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright text-center text-white py-2">
+      <p>&copy;Copyrights 2020. Designed By <a href="#" class="hci-production">HCI Group Productions</a></p>
+    </div>
+  </footer>
+   <!--!Footer-->
+   <script>
+     /*Magnifiy*/
+     document.getElementById('zoom-section').addEventListener('mouseover', function(){
+    imageZoom('featured')
+    });
+
+    function imageZoom(imgID){
+      document.getElementById('lens').style.backgroundImage = `url( ${document.getElementById(imgID).src} )`
+
+      let ratio = 3
+
+      document.getElementById('lens').style.backgroundSize = (document.getElementById(imgID).width * ratio) + 'px ' + (document.getElementById(imgID).height * ratio) + 'px';
+
+      document.getElementById(imgID).addEventListener("mousemove", moveLens)
+      document.getElementById('lens').addEventListener("mousemove", moveLens)
+      document.getElementById(imgID).addEventListener("touchmove", moveLens)
+
+      function moveLens(){
+      
+        let pos = getCursor()
+        
+        let positionLeft = pos.x - ( document.getElementById('lens').offsetWidth / 2)
+        let positionTop = pos.y - ( document.getElementById('lens').offsetHeight / 2)
+
+        if(positionLeft < 0 ){
+          positionLeft = 0
+        }
+
+        if(positionTop < 0 ){
+          positionTop = 0
+        }
+
+        if(positionLeft > document.getElementById(imgID).width -  document.getElementById('lens').offsetWidth /3 ){
+          positionLeft = document.getElementById(imgID).width -  document.getElementById('lens').offsetWidth /3
+        }
+
+        if(positionTop > document.getElementById(imgID).height -  document.getElementById('lens').offsetHeight /3 ){
+          positionTop = document.getElementById(imgID).height -  document.getElementById('lens').offsetHeight /3
+        }
+
+        document.getElementById('lens').style.left = positionLeft + 'px';
+        document.getElementById('lens').style.top = positionTop + 'px';
+
+        document.getElementById('lens').style.backgroundPosition = "-" + (pos.x * ratio) + 'px -' +  (pos.y * ratio) + 'px'
+      }
+
+      function getCursor(){
+
+            let e = window.event
+            let bounds = document.getElementById(imgID).getBoundingClientRect()
+            let x = e.pageX - bounds.left
+        let y = e.pageY - bounds.top
+        x = x - window.pageXOffset;
+        y = y - window.pageYOffset;
+        
+        return {'x':x, 'y':y}
+      }
+    }
+
+    imageZoom('featured')
+    /*End of Magnifiy*/
+    /*Slide*/
+    for (var i=0; i < document.getElementsByClassName('thumbnail').length; i++){
+      document.getElementsByClassName('thumbnail')[i].addEventListener('click', function(){
+        console.log(document.getElementsByClassName('active'))
+        
+        if (document.getElementsByClassName('active').length > 0){
+          document.getElementsByClassName('active')[0].classList.remove('active')
+        }
+        this.classList.add('active')
+        document.getElementById('featured').src = this.src
+      })
+    }
+
+    let buttonRight = document.getElementById('slideRight');
+    let buttonLeft = document.getElementById('slideLeft');
+
+    buttonLeft.addEventListener('click', function(){
+      document.getElementById('slider').scrollLeft -= 180
+    })
+
+    buttonRight.addEventListener('click', function(){
+      document.getElementById('slider').scrollLeft += 180
+    })
+    /*End of Slide*/
+   </script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <!--Owl Carousel Js file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+   <!--isotope plugin cdn-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    
+   <!--Custom Javascript-->
+    <script src="js/main.js"></script>
+</body>
+</html>
